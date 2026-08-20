@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/callStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Looking for someone to talk to…"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Audio only — put on your headphones"
+        android:textColor="@color/white60"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/muteButton"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/panel"
+        android:enabled="false"
+        android:text="Mute"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/hangUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/red"
+        android:text="Hang up"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/reportButton"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/panel"
+        android:enabled="false"
+        android:text="Report"
+        android:textColor="@color/white" />
+
+</LinearLayout>
