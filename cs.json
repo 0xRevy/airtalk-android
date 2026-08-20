@@ -1,0 +1,12 @@
+﻿{
+  "message": "Not Found",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "404"
+gh : gh: Not Found (HTTP 404)
+At line:2 char:1
++ gh api "repos/0xRevy/airtalk-android/check-suites?per_page=5" 2>&1 |  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (gh: Not Found (HTTP 404):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+}

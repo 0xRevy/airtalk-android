@@ -1,0 +1,8 @@
+﻿gh : gh: Not Found (HTTP 404)
+At line:2 char:1
++ gh api "repos/0xRevy/airtalk-android/actions/permissions" 2>&1 | Out- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (gh: Not Found (HTTP 404):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+{"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/permissions#get-github-actions-permissions-for-a-repository","status":"404"}
